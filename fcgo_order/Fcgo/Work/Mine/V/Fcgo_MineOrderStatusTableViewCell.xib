@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mineOrderStatusTableViewCell" rowHeight="56" id="KGk-i7-Jjw" customClass="Fcgo_MineOrderStatusTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Ba-bi-ADe" customClass="Fcgo_MineContainImageViewLabelButton">
+                        <rect key="frame" x="29" y="12" width="46" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="waitPay:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="2iK-Ot-2gm"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="u9G-to-ltO" customClass="Fcgo_MineContainImageViewLabelButton">
+                        <rect key="frame" x="182" y="12" width="46" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="received:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="OWI-Lm-bij"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tgF-6r-4WC" customClass="Fcgo_MineContainImageViewLabelButton">
+                        <rect key="frame" x="264" y="12" width="46" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="afterSale:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FFz-Ah-9fk"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZGQ-tT-9YR" customClass="Fcgo_MineContainImageViewLabelButton">
+                        <rect key="frame" x="106" y="12" width="46" height="30"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <action selector="deal:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dSU-Rh-3j0"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="afterSaleBtn" destination="tgF-6r-4WC" id="jEo-wg-Fte"/>
+                <outlet property="dealBtn" destination="ZGQ-tT-9YR" id="Wln-A1-pi5"/>
+                <outlet property="receivedBtn" destination="u9G-to-ltO" id="Kgv-xp-nA1"/>
+                <outlet property="waitPayBtn" destination="8Ba-bi-ADe" id="avN-gF-faJ"/>
+            </connections>
+            <point key="canvasLocation" x="56.5" y="114"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

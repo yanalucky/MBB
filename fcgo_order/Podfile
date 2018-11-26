@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+
+platform:ios,’8.0’
+use_frameworks!
+
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'IQKeyboardManager'
+pod 'AlicloudPush','~>1.9.1'
+pod 'QIYU_iOS_SDK'
+
+pod 'FLAnimatedImage', '~> 1.0'
+pod 'UMengAnalytics-NO-IDFA'
+pod 'VasSonic'
+target 'Fcgo'

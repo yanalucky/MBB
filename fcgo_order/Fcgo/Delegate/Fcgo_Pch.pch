@@ -1,0 +1,90 @@
+//
+//  Fcgo_Pch.pch
+//  Fcgo
+//
+//  Created by huafanxiao on 2017/5/6.
+//  Copyright © 2017年 huafanxiao. All rights reserved.
+//
+
+#ifndef Fcgo_Pch_pch
+#define Fcgo_Pch_pch
+
+//导入header头文件
+#import "Fcgo_AppDelegate.h"
+#import "Fcgo_Header.h"
+
+//导入基本类
+#import "Fcgo_BasicNavVC.h"
+#import "Fcgo_BasicTabVC.h"
+#import "Fcgo_BasicVC.h"
+#import "Fcgo_BasicModel.h"
+#import "Fcgo_BasicShowWebViewVC.h"
+#import "Fcgo_ShowAndTouchInteractionWebViewVC.h"
+
+//导入自定义动画类
+#import "Fcgo_TextAnimationView.h"
+#import "Fcgo_SheetAnimationView.h"
+#import "Fcgo_AddressPickerView.h"
+#import "Fcgo_ExterAddressPickerView.h"
+#import "Fcgo_AlertAnimationView.h"
+#import "Fcgo_UpdateAnimationView.h"
+#import "ShareAnimationView.h"
+#import "ScanAnimationVew.h"
+
+//导入工具类
+#import "Fcgo_Tools.h"
+#import "Fcgo_payTools.h"
+#import "Fcgo_UserTools.h"
+#import "Fcgo_ClassTools.h"
+#import "Fcgo_NetworkManager.h"
+#import "Fcgo_UploadImageManager.h"
+#import "Fcgo_publicNetworkTools.h"
+#import "Fcgo_IndexButton.h"
+#import "Fcgo_OrderListButton.h"
+#import "Fcgo_RefreshNormalHeader.h"
+#import "Fcgo_CalendarTools.h"
+#import "Fcgo_App_acrossTools.h"
+#import "Fcgo_QYIM_JumpTools.h"
+
+
+//导入第三方
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "Masonry.h"
+#import "UIButton+WebCache.h"
+#import "UIImageView+WebCache.h"
+#import "IQKeyboardManager.h"
+#import "WSProgressHUD.h"
+#import "HXPhotoViewController.h"
+#import "HXPhotoView.h"
+#import "LrdOutputView.h"
+#import "JMDropMenu.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
+#import "XLImageViewer.h"
+#import "PPNumberButton.h"
+#import "YYModel.h"
+#import "SSKeychain.h"
+#import "QXActionSheet.h"
+#import "SDCycleScrollView.h"
+#import "HYImageScrollView.h"
+#import "XHSegmentViewController.h"
+#import "FDDemoScrollView.h"
+#import "Fcgo_UITextView.h"
+#import "XRWaterfallLayout.h"
+#import "UICollectionViewLeftAlignedLayout.h"
+#import "ZKSegment.h"
+#import "CKShimmerLabel.h"
+
+#import "IDCardPhotoVC.h"
+#import "AliImageReshapeController.h"
+#import "SCIndexView.h"
+
+//导入SDK
+#import <AlipaySDK/AlipaySDK.h>
+#import "WXApi.h"
+#import "QYSDK.h" // 七鱼云
+
+
+
+#endif
