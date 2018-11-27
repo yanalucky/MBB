@@ -1,0 +1,60 @@
+//
+//  PrefixHeader.pch
+//  MBB1
+//
+//  Created by 陈彦 on 15/9/6.
+//  Copyright (c) 2015年 elsa. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+#import "UIImage+Sex.h"
+#import "UIFont+yaHei.h"
+#import "NSString+Request.h"
+#import "FatherViewController.h"
+#import "DataModels.h"
+//#import "UITextField+CYAccessoryViewTextField.h"
+#import "CYAlertView.h"
+
+#endif
+#ifndef MBB1_PrefixHeader_pch
+#define MBB1_PrefixHeader_pch
+#define IOS7_OR_LATER [[[UIDevice currentDevice] systemVersion] floatValue]>7
+
+#define ISGIRL 0
+#define ISBOY 1
+
+#define SERVERROOT @"http://www.mengbaobao.com:8088/goldbabyServer/"
+#define TEXTSERVERROOT @"http://www.mengbaobao.com:8088/goldbabyServerTest/"
+#define LOCALSERVERROOT @"http://192.168.1.199:8080/goldbabyServer/"
+#define PREFIXOFIMAGE @"http://www.mengbaobao.com:8088/goldbabyManageTest/"
+
+
+#define FRAMEOFRIGHTVIEW CGRectMake(self.view.frame.size.width/2, 64, self.view.frame.size.width/2, self.view.frame.size.height-64)
+#define BOY_RIGHTVIEWCOLOR [UIColor colorWithRed:229/255.0 green:249/255.0 blue:252/255.0 alpha:1]
+#define GIRL_RIGHTVIEWCOLOR [UIColor colorWithRed:253/255.0 green:236/255.0 blue:245/255.0 alpha:1]
+#define GIRL_WORDCOLOR [UIColor colorWithRed:231/255.0 green:36/255.0 blue:135/255.0 alpha:1]
+#define BOY_WORDCOLOR [UIColor colorWithRed:25/255.0 green:190/255.0 blue:217/255.0 alpha:1] 
+#define WORDDARKCOLOR [UIColor colorWithRed:83/255.0 green:83/255.0 blue:83/255.0 alpha:1]
+
+
+
+
+#define INITSERVERCONFIG @"system.do?method=InitServerConfigure"
+#define LOADUSER @"system.do?method=LoadUser"
+#define LOGIN @"babyUser.do?method=Login"
+#define GETPWD @"babyUser.do?method=GetPwd"
+#define SUBMITMONTHRECORD @"babyUser.do?method=SubmitMonthRecord"
+#define JLDATA @"babyUser.do?method=GetUserRecord"
+#define SETPWD @"babyUser.do?method=EditPwd"
+#define SETPARENT @"babyUser.do?method=EditParent"
+#define SETCARER @"babyUser.do?method=EditCarer"
+#define JOINSALON @"userBody.do?method=JoinSalon"
+#define GETFEEDBACK @"userBody.do?method=GetFeedback"
+#define SUBMITFEEDBACK @"userBody.do?method=SubmitFeedback"
+#define UPLOADHEADIMG @"babyUser.do?method=uploadHead"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

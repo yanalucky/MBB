@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<string>试用,1</string>
+	<key>2</key>
+	<string>半年,6</string>
+	<key>3</key>
+	<string>一年,12</string>
+	<key>4</key>
+	<string>南京半年,6</string>
+	<key>100</key>
+	<string>158付费,1</string>
+	<key>200</key>
+	<string>1588付费,2</string>
+	<key>90</key>
+	<string>潜在用户,1</string>
+	<key>81</key>
+	<string>5个月,5</string>
+	<key>82</key>
+	<string>4个月,4</string>
+	<key>83</key>
+	<string>3个月,3</string>
+	<key>84</key>
+	<string>2个月,2</string>
+	<key>85</key>
+	<string>1个月,1</string>
+</dict>
+</plist>

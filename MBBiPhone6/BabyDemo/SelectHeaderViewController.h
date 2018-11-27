@@ -1,0 +1,13 @@
+//
+//  SelectHeaderViewController.h
+//  BabyDemo
+//
+//  Created by 陈彦 on 16/3/30.
+//  Copyright © 2016年 elsa. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SelectHeaderViewController : UIImagePickerController
+
+@end

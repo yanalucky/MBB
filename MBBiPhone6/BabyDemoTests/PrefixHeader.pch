@@ -1,0 +1,99 @@
+//
+//  PrefixHeader.pch
+//  BabyDemo
+//
+//  Created by 陈彦 on 16/3/15.
+//  Copyright © 2016年 elsa. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import "Masonry.h"
+#import "UIFont+yahei.h"
+#import "UIView+Line.h"
+#import "UILabel+Nature.h"
+#import "UITextField+CYAccessoryViewTextField.h"
+#import "NSString+Request.h"
+
+
+#import "ErrorStatus.h"
+#import "FirPageViewController.h"
+#import "AppDelegate.h"
+#import "RickyNavViewController.h"
+#import "LeftViewController.h"
+
+
+#define MBColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define Ratio (([UIScreen mainScreen].bounds.size.width)/320.0)
+#define IOS7_OR_LATER [[[UIDevice currentDevice] systemVersion] floatValue]>=7
+
+
+
+#define CURRENTSERVER SERVERROOT
+#define CURRENTIMAGESERVER PREFIXOFIMAGE
+#define CURRENTVERSION @"1.4.0"
+
+#define LOCALSERVERROOT @"http://192.168.31.121:8080/mbbPhoneServer/"
+#define SERVERROOT @"http://www.mengbaobao.com:8088/mbbPhoneServer1_4_0/"
+#define TEXTSERVERROOT @"http://61.172.255.9:8088/mbbPhoneServerTime/"
+
+#define PREFIXOFIMAGE @"http://www.mengbaobao.com/imageServer/"
+#define PREFIXOFIMAGESERVERROOT @"http://61.172.255.9/imageServer/"
+
+
+#define GETVERSION @"system.do?method=GetVersion"
+
+#define LOADREGISTER @"system.do?method=LoadRegister"
+#define REGISTERCHECK @"babyUser.do?method=RegisterCheck"
+#define BABYUSERREGISTER @"babyUser.do?method=BabyUserRegister"
+#define WEBUSERREGISTER @"babyUser.do?method=WebUserRegister"
+
+#define SENDMESSAGE @"babyUser.do?method=SendMessage"
+#define INITSERVERCONFIG @"system.do?method=InitServerConfigure"
+#define LOGIN @"babyUser.do?method=Login"
+#define LOADHOME @"system.do?method=LoadHome"
+#define CLICKDATETIME @"system.do?method=ClickDateTime"
+#define CLICKHISTORYRECORD @"system.do?method=ClickHistoryRecord"
+#define GETRECORDSTAR @"system.do?method=GetRecordStar"
+#define SUBMITMONTHRECORD @"babyUser.do?method=SubmitMonthRecord"
+#define GETONLINEAPPRAISAL @"babyUser.do?method=GetOnlineAppraisal"
+#define GETNURTUREGUIDE @"babyUser.do?method=GetNurtureGuide"
+#define GETCURRENTMEMU @"system.do?method=GetUserCurrentMenu"
+#define SAVEUSER @"babyUser.do?method=SaveUser"
+#define EDITPARENT @"babyUser.do?method=EditParent"
+#define EDITCARER @"babyUser.do?method=EditCarer"
+#define EDITLINKMAN @"babyUser.do?method=EditLinkman"
+#define GETFEEDBACK @"userBody.do?method=GetFeedback"
+#define EDITPWD @"babyUser.do?method=EditPwd"
+#define UPLOADUSERHEAD @"babyUser.do?method=UploadUserHead"
+#define UPLOADNEWBABYREPORT @"babyUser.do?method=UploadNewBabyReport"
+#define SENDMESSAGE @"babyUser.do?method=SendMessage"
+#define SENDRESETPWDMESSAGE @"babyUser.do?method=SendResetPasswordMessage"
+
+#define REGISTER @"babyUser.do?method=Register"
+#define LOADREGISTER @"system.do?method=LoadRegister"
+
+#define SAVEBEFORERECORD @"system.do?method=SaveBeforeRecord"
+#define SAVEBREAKMONTHRECORD @"system.do?method=SaveBreakMonthRecord"
+
+#define GETTHELASTMENU @"system.do?method=GetTheLastMenu"
+
+#define GETBREAKMONTHS @"system.do?method=GetBreakMonths"
+
+
+#define WEBUSERINITSERVERCONFIGURE @"system.do?method=WebUserInitServerConfigure"
+#define SAVENEWPWD @"babyUser.do?method=SaveNewPwd"
+
+
+#endif /* PrefixHeader_pch */
+
+
+
+

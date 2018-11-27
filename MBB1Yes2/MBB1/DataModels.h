@@ -1,0 +1,42 @@
+//
+//  DataModels.h
+//
+//  Created by  豆蒙萌 on 15/9/21
+//  Copyright (c) 2015 __MyCompanyName__. All rights reserved.
+//
+
+#import "LoginResult.h"
+#import "LoginNSObject.h"
+#import "LoginUser.h"
+#import "ServerConfigAppConfigList.h"
+#import "ServerConfigResult.h"
+#import "ServerConfigDoctorList.h"
+#import "ServerConfigGrowthList.h"
+#import "ServerConfigBaseClass.h"
+#import "ServerConfigHospitalList.h"
+#import "ServerConfigFeatureList.h"
+#import "ServerConfigTitlelist.h"
+#import "ServerConfigQuestionList.h"
+#import "LoginUserDetaillist.h"
+#import "LoginUserBodycheckAppraisalList.h"
+#import "LoginUserNSObject.h"
+#import "LoginUserUser.h"
+#import "LoginUserUserRecord.h"
+#import "LoginUserRecordHelp.h"
+#import "LoginUserSalonList.h"
+#import "LoginUserImgdata.h"
+#import "LoginUserNurtureGuideList.h"
+#import "LoginUserUserSalonList.h"
+#import "LoginUserOnlineAppraisal.h"
+#import "LoginUserResult.h"
+#import "LoginUserBodycheckBooking.h"
+#import "LoginUserTreatBooking.h"
+#import "JLUserRecord.h"
+#import "JLResult.h"
+#import "JLUser.h"
+#import "JLNSObject.h"
+#import "JLRecordHelp.h"
+#import "JLFeatureList.h"
+#import "FeedbackFeedbackList.h"
+#import "FeedbackResult.h"
+#import "FeedbackNSObject.h"
